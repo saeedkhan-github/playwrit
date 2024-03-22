@@ -7,7 +7,7 @@ test.describe('Test Executing ', () => {
   });
 
   test('Login into HRM-demo site', async ({ page }) => {
-    await page.locator("//input[@placeholder='Username']").fill('Admin');
+    await page.locator("//input[@placeholder='Username']").fill('Adamin');
     await page.getByPlaceholder('Password').fill('admin123');
     await page.get
   });
