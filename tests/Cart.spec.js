@@ -1,0 +1,42 @@
+import { test, expect } from '@playwright/test';
+import exp from 'constants';
+import { title } from 'process';
+
+
+test('Automate Form', async({page})=>{
+
+    const productName='ZARA COAT 3';
+
+  
+    await page.goto('https://rahulshettyacademy.com/client/');
+    await page.locator("//input[@id='userEmail']").fill('saeedullah321@gmail.com');
+    await page.locator('//input[@id="userPassword"]').fill('Saeed123@');
+    await page.locator('//input[@id="login"]').click();
+    await page.waitForLoadState('networkidle');
+    let products =page.locator('.card-body')
+    const titles = await page.locator('.card-body b').allTextContents();
+    // console.log(titles);
+    // console.log(titles.length);
+
+    const count = await products.count();
+    console.log(await products.count())
+    for(let i=0; i<count; i++)
+    {
+       if( await products.nth(i).locator('b').textContent() === productName)
+       {
+            await products.nth(i).locator("text= Add To Cart").click();
+            break;
+       }
+    }
+    await page.locator('//button[@routerlink="/dashboard/cart"]').click();
+    await page.locator('div li').first().waitFor();
+    // await page.waitForTimeout(4000);
+    const bool =await page.locator("h3:has-text('ZARA COAT 3')").isVisible();
+    expect(bool).toBeTruthy();
+    await page.locator('//button[normalize-space()="Checkout"]').click();
+    const box=await page.locator('//input[@value="4542 9931 9292 2293"]');
+    await box.clear();
+    await box.fill('1231231313')
+    await page.pause();
+
+})

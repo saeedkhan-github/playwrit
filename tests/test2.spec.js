@@ -1,14 +1,15 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Test Executing ', () => {
-  test.beforeEach(async ({ page }) => {
-    // Go to the starting url before each test.
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
-  });
+test.describe.configure({ mode: 'parallel' });
 
-  test('Login into HRM-demo site', async ({ page }) => {
-    await page.locator("//input[@placeholder='Username']").fill('Adamin');
-    await page.getByPlaceholder('Password').fill('admin123');
-    await page.get
-  });
+test.describe('A, runs in parallel with B', () => {
+  test.describe.configure({ mode: 'parallel' });
+  test.fixme('in order A1', async ({ page }) => { console.log('in order A1')});
+  test('in order A2', async ({ page }) => { console.log('in order A2')});
+});
+
+test.describe('B, runs in parallel with A', () => {
+  test.describe.configure({ mode: 'parallel' });
+  test('in order B1', async ({ page }) => { console.log('in order B1')});
+  test('in order B2', async ({ page }) => { console.log('in order B2')});
 });
