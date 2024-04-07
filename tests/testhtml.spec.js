@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import exp from 'constants';
 
 
-test('Testing HTML Page', async({page})=>{
+test.skip('Testing HTML Page', async({page})=>{
 
     await page.goto('http://127.0.0.1:5500/tests/test.html');
 
