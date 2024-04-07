@@ -6,6 +6,7 @@ test.beforeAll(async({browser})=>{
 })
 test('test', async ({}) => {
     const page = await webContext.newPage();
-    await page.goto('https://webapp.hucu.us/');
+    await page.goto('https://webapp.hucu.us');
+    
 
 });

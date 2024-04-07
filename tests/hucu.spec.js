@@ -7,7 +7,7 @@ let webContext;
 test.beforeAll(async({browser})=>{
     const context = await browser.newContext();
     const page = await context.newPage();
-  await page.goto('https://webapp.hucu.us/login');
+  await page.goto('./login');
   await page.getByPlaceholder('Username or Email').click();
   await page.getByPlaceholder('Username or Email').fill('sk.test6');
   await page.getByRole('button', { name: 'Log In' }).click();
@@ -36,6 +36,6 @@ test('test', async ({}) => {
     const page = await webContext.newPage();
     await page.goto('https://webapp.hucu.us/');
 
-    await page.waitForLoadState('networkidle');
+    // await page.waitForLoadState('networkidle');
 
 });

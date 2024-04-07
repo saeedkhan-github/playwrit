@@ -10,5 +10,9 @@
   "devDependencies": {
     "@playwright/test": "^1.42.0",
     "@types/node": "^20.11.22"
+  },
+  "dependencies": {
+    "playwright": "^1.42.1",
+    "playwright-webkit": "^1.42.1"
   }
 }
