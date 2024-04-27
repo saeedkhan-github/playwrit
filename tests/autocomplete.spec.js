@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Auto Complete ', async ({ page }) => {
+test('@Smoke Auto Complete ', async ({ page }) => {
     await page.goto('https://alphagov.github.io/accessible-autocomplete/examples/');
 
     await page.locator('//input[@id="autocomplete-default"]').fill('Ch');

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 
-test('Automate Form', async({page})=>{
+test('@Smoke Automate Form', async({page})=>{
 
     await page.goto('https://demoqa.com/automation-practice-form');
     await page.locator("//input[@id='firstName']").fill('Saeed');
