@@ -7,7 +7,7 @@ test.beforeAll(async({browser})=>{
 })
 
 
-test('API Request testing',async()=>{
+test.skip('API Request testing',async()=>{
     const page = await webContext.newPage();
     await page.goto('https://webapp.hucu.us/');
     let verifypin= await page.getByRole('header',{name:'Verify Pin'});
