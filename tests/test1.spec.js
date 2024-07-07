@@ -1,29 +1,31 @@
 import {test,expect} from '@playwright/test';
 
-test('test', async ({ page }) => {
-    await page.goto('https://webapp.hucu.us/');
-    await page.goto('https://webapp.hucu.us/chat');
-    await page.goto('https://webapp.hucu.us/login');
-    await page.getByPlaceholder('Username or Email').click();
-    await page.getByPlaceholder('Username or Email').fill('sk.test6');
-    await page.getByRole('button', { name: 'Log In' }).click();
-    await page.getByPlaceholder('Password').click();
-    await page.getByPlaceholder('Password').fill('Saeed123@');
-    await page.getByPlaceholder('Password').press('Enter');
-    await page.goto('https://webapp.hucu.us/login/pin');
-    await page.getByRole('textbox').first().click();
-    await page.getByRole('textbox').first().fill('1');
-    await page.getByRole('textbox').nth(1).fill('1');
-    await page.getByRole('textbox').nth(2).fill('1');
-    await page.getByRole('textbox').nth(3).fill('1');
-    await page.waitForTimeout(5000);
-    await page.getByRole('textbox').first().fill('1');
-    await page.getByRole('textbox').nth(1).fill('1');
-    await page.getByRole('textbox').nth(2).fill('1');
-    await page.getByRole('textbox').nth(3).fill('1');
-    await page.waitForEvent(10000);
-    console.log(page.url());
-    await page.getByLabel('toast').click();
-    // await page.waitForSelector(getByText('Aabid ali rehman'));
-    // await page.getByText('Aabid ali rehman').click();
+
+test.skip('test', async ({ page }) => {
+    await page.goto('https://the-internet.herokuapp.com/context_menu');
+      // Select the textarea element
+  const textarea = await page.$('#hot-spot');
+
+  // Scroll the textarea into view
+  await textarea.scrollIntoViewIfNeeded();
+
+  // Perform any other actions or assertions
+  const isVisible = await textarea.isVisible();
+  expect(isVisible).toBe(true);
+
+    await expect(page.locator('#hot-spot')).toHaveAttribute('oncontextmenu')
+  
+
+  });
+
+  test('test scroll the element into view', async ({ page }) => {
+    await page.goto('https://rahulshettyacademy.com/AutomationPractice/');
+      // Select the textarea element
+  const textarea = await page.$('//a[normalize-space()="Contact info"]');
+
+  await textarea.scrollIntoViewIfNeeded();
+
+ 
+  
+
   });

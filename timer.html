@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Minute Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #timer {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div id="timer">05:00</div>
+
+    <script>
+        function startTimer(duration, display) {
+            let timer = duration, minutes, seconds;
+            const interval = setInterval(() => {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    clearInterval(interval);
+                    display.textContent = "Offer expired";
+                }
+            }, 1000);
+        }
+
+        window.onload = () => {
+            const fiveMinutes = 60 * 5;
+            const display = document.getElementById('timer');
+            startTimer(fiveMinutes, display);
+        };
+    </script>
+</body>
+</html>
