@@ -2,20 +2,20 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.2.1415626031.1711812969",
+      "value": "GA1.2.351773310.1723994198",
       "domain": ".hucu.us",
       "path": "/",
-      "expires": 1746372968.773344,
+      "expires": 1758554198.233259,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_gid",
-      "value": "GA1.2.655693490.1711812969",
+      "value": "GA1.2.1967265535.1723994198",
       "domain": ".hucu.us",
       "path": "/",
-      "expires": 1711899368,
+      "expires": 1724080598,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,37 +25,37 @@
       "value": "1",
       "domain": ".hucu.us",
       "path": "/",
-      "expires": 1711813028,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_ga_JB6J04BPSQ",
-      "value": "GS1.2.1711812969.1.1.1711812978.0.0.0",
-      "domain": ".hucu.us",
-      "path": "/",
-      "expires": 1746372978.711027,
+      "expires": 1723994258,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "x-stage-hucu-token",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4LDQ5M10sImxvY2F0aW9uSWRzIjpbXSwiYXNzZXRzT25seSI6ZmFsc2UsInByb2ZpbGVfY29tcGxldGVkIjp0cnVlLCJkZXZpY2VJZCI6IndlYjo6YWFtSXhNWGtlcWI4WXFabUI0RHlQMTV2ViIsInBpbiI6IjExMTEiLCJkZWNvZGVkUGluIjoiIiwiYmlvbWV0cmljVG9rZW4iOiIiLCJkZWNvZGVkQmlvbWV0cmljVG9rZW4iOiIiLCJmaXJzdF9uYW1lIjoic2siLCJsYXN0X25hbWUiOiJ0ZXN0c2l4IiwidGltZXN0YW1wIjoxNzExODA4ODUwNzc2LCJpc19hcHAiOmZhbHNlLCJpYXQiOjE3MTE4MTI5NzksImV4cCI6MTcxMTgxMzkzOX0.-zkKyxvlH2sAImXDuVmEOBRCxIkv7MKjhA9JlOkhbuM",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4LDQ5M10sImxvY2F0aW9uSWRzIjpbXSwiYXNzZXRzT25seSI6ZmFsc2UsInByb2ZpbGVfY29tcGxldGVkIjp0cnVlLCJkZXZpY2VJZCI6IndlYjo6VWhBSFV4NXFoQ0lpaWRpM0N5ODk3YVlXeCIsInBpbiI6IiIsImRlY29kZWRQaW4iOiIiLCJiaW9tZXRyaWNUb2tlbiI6IiIsImRlY29kZWRCaW9tZXRyaWNUb2tlbiI6IiIsImZpcnN0X25hbWUiOiJzayIsImxhc3RfbmFtZSI6InRlc3RzaXgiLCJ0aW1lc3RhbXAiOjE3MjM5ODkwMDYxMjksImlzX2FwcCI6ZmFsc2UsImlhdCI6MTcyMzk5NDIxMCwiZXhwIjoxNzI0MTY3MDEwfQ.aSpVZLJBMQXzQmlVKpoD4nkKk5LLnrlwlkCmYJMYHC0",
       "domain": ".hucu.us",
       "path": "/",
-      "expires": 1711899379,
+      "expires": 1724080608,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "x-stage-hucu-user",
-      "value": "{%22username%22:%22sk.test6%22%2C%22email%22:%22kamran@hucu.ai%22%2C%22phone%22:%22+16023366000%22%2C%22is_super_admin%22:false%2C%22temp_password%22:false%2C%22is_logged_in%22:true%2C%22fk_user_id%22:126685%2C%22id%22:126685%2C%22first_name%22:%22sk%22%2C%22last_name%22:%22testsix%22%2C%22zoom_link%22:%22Bsjssksksnsnsnsnsbuwywy%22%2C%22dob%22:%22%22%2C%22avatar%22:%221697639247165_P%22%2C%22profile_completed%22:true%2C%22outOfOffice%22:1%2C%22isPasswordSet%22:true%2C%22pin%22:%221111%22%2C%22biometricToken%22:%22%22%2C%22deviceId%22:%22web::aamIxMXkeqb8YqZmB4DyP15vV%22%2C%22decodedToken%22:%22%22%2C%22timestamp%22:1711808850776}",
+      "value": "{%22username%22:%22sk.test6%22%2C%22email%22:%22kamran@hucu.ai%22%2C%22phone%22:%22+16023366000%22%2C%22is_super_admin%22:false%2C%22temp_password%22:false%2C%22is_logged_in%22:true%2C%22fk_user_id%22:126685%2C%22id%22:126685%2C%22first_name%22:%22sk%22%2C%22last_name%22:%22testsix%22%2C%22zoom_link%22:%22Bsjssksksnsnsnsnsbuwywy%22%2C%22dob%22:%22%22%2C%22avatar%22:%221697639247165_P%22%2C%22profile_completed%22:true%2C%22deviceId%22:%22web::UhAHUx5qhCIiidi3Cy897aYWx%22%2C%22isPasswordSet%22:true%2C%22pin%22:%22%22%2C%22biometricToken%22:%22%22%2C%22decodedToken%22:%22%22%2C%22timestamp%22:1723989006129%2C%22outOfOffice%22:1}",
       "domain": ".hucu.us",
       "path": "/",
-      "expires": 1711899379,
+      "expires": 1724080608,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_JB6J04BPSQ",
+      "value": "GS1.2.1723994199.1.1.1723994208.0.0.0",
+      "domain": ".hucu.us",
+      "path": "/",
+      "expires": 1758554208.328778,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -67,15 +67,15 @@
       "localStorage": [
         {
           "name": "deviceId",
-          "value": "\"web::aamIxMXkeqb8YqZmB4DyP15vV\""
-        },
-        {
-          "name": "TOKEN_DATA",
-          "value": "{\"jwtToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4LDQ5M10sImxvY2F0aW9uSWRzIjpbXSwiYXNzZXRzT25seSI6ZmFsc2UsInByb2ZpbGVfY29tcGxldGVkIjp0cnVlLCJkZXZpY2VJZCI6IndlYjo6YWFtSXhNWGtlcWI4WXFabUI0RHlQMTV2ViIsInBpbiI6IjExMTEiLCJkZWNvZGVkUGluIjoiIiwiYmlvbWV0cmljVG9rZW4iOiIiLCJkZWNvZGVkQmlvbWV0cmljVG9rZW4iOiIiLCJmaXJzdF9uYW1lIjoic2siLCJsYXN0X25hbWUiOiJ0ZXN0c2l4IiwidGltZXN0YW1wIjoxNzExODA4ODUwNzc2LCJpc19hcHAiOmZhbHNlLCJpYXQiOjE3MTE4MTI5NzksImV4cCI6MTcxMTgxMzkzOX0.-zkKyxvlH2sAImXDuVmEOBRCxIkv7MKjhA9JlOkhbuM\",\"jwtAssetToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4XSwibG9jYXRpb25JZHMiOltdLCJhc3NldHNPbmx5IjpmYWxzZSwicHJvZmlsZV9jb21wbGV0ZWQiOnRydWUsImRldmljZUlkIjoid2ViOjphYW1JeE1Ya2VxYjhZcVptQjREeVAxNXZWIiwicGluIjoiIiwiZGVjb2RlZFBpbiI6IiIsImJpb21ldHJpY1Rva2VuIjoiIiwiZGVjb2RlZEJpb21ldHJpY1Rva2VuIjoiIiwiZmlyc3RfbmFtZSI6InNrIiwibGFzdF9uYW1lIjoidGVzdHNpeCIsInRpbWVzdGFtcCI6MTcxMTgwODg1MDc3NiwiaXNfYXBwIjpmYWxzZSwiaWF0IjoxNzExODEyOTcyLCJleHAiOjE3MTMxMDg5NzJ9.PPGVisXZ1B7D_XVUrDvfilRWyRF-A5WSdBAQVm4TTGQ\",\"user\":{\"username\":\"sk.test6\",\"email\":\"kamran@hucu.ai\",\"phone\":\"+16023366000\",\"is_super_admin\":false,\"temp_password\":false,\"is_logged_in\":true,\"fk_user_id\":126685,\"id\":126685,\"first_name\":\"sk\",\"last_name\":\"testsix\",\"zoom_link\":\"Bsjssksksnsnsnsnsbuwywy\",\"dob\":\"\",\"avatar\":\"1697639247165_P\",\"profile_completed\":true,\"outOfOffice\":1,\"isPasswordSet\":true,\"pin\":\"1111\",\"biometricToken\":\"\",\"deviceId\":\"web::aamIxMXkeqb8YqZmB4DyP15vV\",\"decodedToken\":\"\",\"timestamp\":1711808850776},\"userContext\":{\"terms_accepted_at\":\"2023-08-02T10:28:22.000Z\",\"hasAcceptedLatestTermsAndConditions\":true,\"termsLastUpdatedAt\":\"July 1st 2023\"},\"isActive\":true,\"isPasswordSet\":true,\"entity\":{\"id\":358,\"name\":\"Saeed Test\",\"headquarter_address\":\"street 5\",\"zip_code\":\"25000\",\"state\":\"KP\",\"country\":\"PK\",\"city\":\"Peshawar\",\"logo\":\"\",\"company_logo\":\"1682506400696_download-1-2.jpeg\",\"enable_experimental_features\":false,\"canInviteEmployees\":true,\"status_message\":null,\"is_active\":true}}"
+          "value": "\"web::UhAHUx5qhCIiidi3Cy897aYWx\""
         },
         {
           "name": "messagesDraft",
           "value": "{}"
+        },
+        {
+          "name": "TOKEN_DATA",
+          "value": "{\"jwtToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4LDQ5M10sImxvY2F0aW9uSWRzIjpbXSwiYXNzZXRzT25seSI6ZmFsc2UsInByb2ZpbGVfY29tcGxldGVkIjp0cnVlLCJkZXZpY2VJZCI6IndlYjo6VWhBSFV4NXFoQ0lpaWRpM0N5ODk3YVlXeCIsInBpbiI6IiIsImRlY29kZWRQaW4iOiIiLCJiaW9tZXRyaWNUb2tlbiI6IiIsImRlY29kZWRCaW9tZXRyaWNUb2tlbiI6IiIsImZpcnN0X25hbWUiOiJzayIsImxhc3RfbmFtZSI6InRlc3RzaXgiLCJ0aW1lc3RhbXAiOjE3MjM5ODkwMDYxMjksImlzX2FwcCI6ZmFsc2UsImlhdCI6MTcyMzk5NDIxMCwiZXhwIjoxNzI0MTY3MDEwfQ.aSpVZLJBMQXzQmlVKpoD4nkKk5LLnrlwlkCmYJMYHC0\",\"jwtAssetToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4XSwibG9jYXRpb25JZHMiOltdLCJhc3NldHNPbmx5IjpmYWxzZSwicHJvZmlsZV9jb21wbGV0ZWQiOnRydWUsImRldmljZUlkIjoid2ViOjpVaEFIVXg1cWhDSWlpZGkzQ3k4OTdhWVd4IiwicGluIjoiIiwiZGVjb2RlZFBpbiI6IiIsImJpb21ldHJpY1Rva2VuIjoiIiwiZGVjb2RlZEJpb21ldHJpY1Rva2VuIjoiIiwiZmlyc3RfbmFtZSI6InNrIiwibGFzdF9uYW1lIjoidGVzdHNpeCIsInRpbWVzdGFtcCI6MTcyMzk4OTAwNjEyOSwiaXNfYXBwIjpmYWxzZSwiaWF0IjoxNzIzOTk0MjEwLCJleHAiOjE3MjUyOTAyMTB9.2B5J4LFiKZtK1I_dv8Vm5UY0_kcMNEs6pTq7cu2MMEI\",\"user\":{\"username\":\"sk.test6\",\"email\":\"kamran@hucu.ai\",\"phone\":\"+16023366000\",\"is_super_admin\":false,\"temp_password\":false,\"is_logged_in\":true,\"fk_user_id\":126685,\"id\":126685,\"first_name\":\"sk\",\"last_name\":\"testsix\",\"zoom_link\":\"Bsjssksksnsnsnsnsbuwywy\",\"dob\":\"\",\"avatar\":\"1697639247165_P\",\"profile_completed\":true,\"status_message\":null,\"deviceId\":\"web::UhAHUx5qhCIiidi3Cy897aYWx\",\"isPasswordSet\":true,\"pin\":\"\",\"biometricToken\":\"\",\"decodedToken\":\"\",\"timestamp\":1723989006129,\"outOfOffice\":1},\"userContext\":{\"terms_accepted_at\":\"2023-08-02T10:28:22.000Z\",\"hasAcceptedLatestTermsAndConditions\":true,\"termsLastUpdatedAt\":\"July 1st 2023\"},\"isActive\":true,\"isPasswordSet\":true,\"enableReducedPinFrequency\":true,\"entity\":{\"id\":358,\"name\":\"Saeed Test\",\"headquarter_address\":\"street 5\",\"zip_code\":\"25000\",\"state\":\"KP\",\"country\":\"PK\",\"city\":\"Peshawar\",\"logo\":\"\",\"company_logo\":\"1682506400696_download-1-2.jpeg\",\"enable_experimental_features\":false,\"partner_group_name\":\"test\",\"status_message\":null,\"is_active\":true}}"
         },
         {
           "name": "messagesRepliesDraft",
@@ -83,15 +83,11 @@
         },
         {
           "name": "x-stage-hucu-token",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4LDQ5M10sImxvY2F0aW9uSWRzIjpbXSwiYXNzZXRzT25seSI6ZmFsc2UsInByb2ZpbGVfY29tcGxldGVkIjp0cnVlLCJkZXZpY2VJZCI6IndlYjo6YWFtSXhNWGtlcWI4WXFabUI0RHlQMTV2ViIsInBpbiI6IjExMTEiLCJkZWNvZGVkUGluIjoiIiwiYmlvbWV0cmljVG9rZW4iOiIiLCJkZWNvZGVkQmlvbWV0cmljVG9rZW4iOiIiLCJmaXJzdF9uYW1lIjoic2siLCJsYXN0X25hbWUiOiJ0ZXN0c2l4IiwidGltZXN0YW1wIjoxNzExODA4ODUwNzc2LCJpc19hcHAiOmZhbHNlLCJpYXQiOjE3MTE4MTI5NzksImV4cCI6MTcxMTgxMzkzOX0.-zkKyxvlH2sAImXDuVmEOBRCxIkv7MKjhA9JlOkhbuM"
-        },
-        {
-          "name": "eTags",
-          "value": "\"{\\\"https://api.hucu.us/api/v2/entities/358/locations/850/terms-conditions\\\":\\\"W/\\\\\\\"74-V/7ugLFf8nFmaMLFH3DwYkax8vQ\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/broadcasts\\\":\\\"W/\\\\\\\"5642-bbP4eTlULDAm6RJ/PacbA9TV9Dg\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/family/members\\\":\\\"W/\\\\\\\"39d3e-lohKrZlw5EOqZ5klnyW0rubV8lg\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/personals\\\":\\\"W/\\\\\\\"7a02-Y132Eaec38hQ+KM0KO7zbq+Jh6c\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/notifications\\\":\\\"W/\\\\\\\"a98-uaeD0rlm6Y8dsIU2POceQ07w+0M\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/forms\\\":\\\"W/\\\\\\\"a21-QBXbVrBrFLCohDFIP7kWwuskaus\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/groups\\\":\\\"W/\\\\\\\"113b1-HarDWNNtwiyRoDO1uH/WibXw5Gw\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/flags\\\":\\\"W/\\\\\\\"64dc-PpD/Nsw8a84rIJhGlp3raLdy49w\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/users/statuses\\\":\\\"W/\\\\\\\"5931f-+Msiup3qJXDWIfcc2nK2Zlk8DLY\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/patients/family-channels\\\":\\\"W/\\\\\\\"d762-PdEdkue3iNz1GFmbdisfX/AKKds\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/users/honorPoints\\\":\\\"W/\\\\\\\"77-qurl0nsj9demRkevIAdik2gVjEY\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/bookmarks?page=1\\\":\\\"W/\\\\\\\"a85b-3L77hJxUouxZsNcG2Vn5/7RcHm0\\\\\\\"\\\",\\\"https://api.hucu.us/api/v2/entities/358/locations/850/patients\\\":\\\"W/\\\\\\\"3f4e6-0pKG4/YJ607dsBuMfFszdxJx3qQ\\\\\\\"\\\"}\""
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrLnRlc3Q2IiwiZW1haWwiOiJrYW1yYW5AaHVjdS5haSIsImlkIjoxMjY2ODUsImlzX3N1cGVyX2FkbWluIjpmYWxzZSwiZW50aXR5SWRzIjpbMzU4LDQ5M10sImxvY2F0aW9uSWRzIjpbXSwiYXNzZXRzT25seSI6ZmFsc2UsInByb2ZpbGVfY29tcGxldGVkIjp0cnVlLCJkZXZpY2VJZCI6IndlYjo6VWhBSFV4NXFoQ0lpaWRpM0N5ODk3YVlXeCIsInBpbiI6IiIsImRlY29kZWRQaW4iOiIiLCJiaW9tZXRyaWNUb2tlbiI6IiIsImRlY29kZWRCaW9tZXRyaWNUb2tlbiI6IiIsImZpcnN0X25hbWUiOiJzayIsImxhc3RfbmFtZSI6InRlc3RzaXgiLCJ0aW1lc3RhbXAiOjE3MjM5ODkwMDYxMjksImlzX2FwcCI6ZmFsc2UsImlhdCI6MTcyMzk5NDIxMCwiZXhwIjoxNzI0MTY3MDEwfQ.aSpVZLJBMQXzQmlVKpoD4nkKk5LLnrlwlkCmYJMYHC0"
         },
         {
           "name": "lastActivity",
-          "value": "1711812973"
+          "value": "1723994208"
         }
       ]
     }
