@@ -6,5 +6,5 @@ test('test 1', async ({ page}) => {
  await page.locator('//input[@id="password"]').fill('secret_sauce');
  await page.locator('//input[@id="login-button"]').click();
  await page.locator('//select[@class="product_sort_container"]').selectOption({index:1})
-await page.pause(3000);
+await page.waitForTimeout(3000);
 });

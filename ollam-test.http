@@ -1,0 +1,8 @@
+### Generate test idea
+POST http://localhost:11434/api/generate
+Content-Type: application/json
+
+{
+  "model": "phi3:mini",
+  "prompt": "Write 3 Playwright test ideas for OrangeHRM login page."
+}
